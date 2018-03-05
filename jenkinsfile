@@ -24,7 +24,7 @@ node {
         notifyBuild(currentBuild.result)
 
         def bs = currentBuild.result ?: 'SUCCESSFUL'
-       // //if(bs == 'SUCCESSFUL'){
+       // if(bs == 'SUCCESSFUL'){
          //   bitbucketStatusNotify(buildState: 'SUCCESSFUL')
         //}
     }
