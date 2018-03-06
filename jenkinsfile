@@ -8,11 +8,8 @@ node {
                 stage('Checkout'){
                     echo 'Checking out GitHub'
                     sh 'echo test'
-<<<<<<< HEAD
 		    echo "Branch name:" + env.BRANCH_NAME
-=======
 
->>>>>>> 1b4ee05513472a4c42ae805905371152eb662c83
                 }
 
                 
