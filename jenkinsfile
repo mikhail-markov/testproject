@@ -8,7 +8,11 @@ node {
 
                 stage('Checkout'){
                     echo 'Checking out GitHub'
+<<<<<<< HEAD
                     sh 'echo test0'
+=======
+                    sh 'echo test14345'
+>>>>>>> f99ad3dfff0cb5fd0625f3b113073c715ea53248
                 }
 
                 
