@@ -9,6 +9,7 @@ node {
                     echo 'Checking out GitHub'
                     sh 'echo test'
 		    echo "Branch name:" + env.BRANCH_NAME
+			sh "echo $env.BRANCH_NAME"
 
                 }
 
