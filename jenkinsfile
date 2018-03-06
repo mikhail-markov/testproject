@@ -8,7 +8,7 @@ node {
 
                 stage('Checkout'){
                     echo 'Checking out GitHub'
-                    sh 'echo test12'
+                    sh 'echo test1'
                 }
 
                 
